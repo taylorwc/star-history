@@ -14,14 +14,13 @@ export default function draw(datasets) {
       datasets
     },    
     options: {
+      unxkcdify: true,
       xTickCount: 5,
       yTickCount: 5,
       legendPosition: chartXkcd.config.positionType.upLeft,
       showLine: true,
       timeFormat: 'MM/DD/YYYY',
-      dotSize: 0.5,
-      unxkcdify: true,
-      fontFamily: 'Arial',
+      dotSize: 0.5,            
     },
   })
 }
