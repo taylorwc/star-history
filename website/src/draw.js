@@ -20,6 +20,8 @@ export default function draw(datasets) {
       showLine: true,
       timeFormat: 'MM/DD/YYYY',
       dotSize: 0.5,
+      unxkcdify: true,
+      fontFamily: 'Arial',
     },
   })
 }
