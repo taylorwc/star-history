@@ -16,6 +16,7 @@ export default function draw(datasets) {
     options: {
       unxkcdify: true,
       xTickCount: 5,
+      dataColors: ["#7f68b8"],
       yTickCount: 5,
       legendPosition: chartXkcd.config.positionType.upLeft,
       showLine: true,
